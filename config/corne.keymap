@@ -42,12 +42,12 @@
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  "  |  #  |  $  |  %  |   |  &  |  /  |  (  |  )  |  =  |  +   |
-// | SHFT |     |  @  |     |     |  ~  |   |  +  |  \  |  [  |  ]  |  '  |  *  |
+// | SHFT |  {  |  }  |  [  |  ]  |  ~  |   |  +  |  \  |  [  |  ]  |  '  |  *   |
 // | CTRL |     |     |     |     |     |   |  ?  |  `  |  {  |  }  |  |  |  ^   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp TAB   &kp EXCL &kp AT     &kp HASH      &kp SE_DLR       &kp SE_PERC    &kp SE_AMPR &kp SE_SLSH  &kp SE_LPRN     &kp SE_RPRN    &kp SE_EQL  &kp SE_PLUS
-   &kp LSHFT &trans   &kp SE_AT  &kp SE_LBRC   &kp SE_RBRC      &kp SE_TILD    &kp MINUS   &kp SE_BSLS  &kp SE_LBRC     &kp SE_RBRC    &kp SE_QUOT &kp SE_ASTR
+   &kp LSHFT &kp SE_LCBR &kp SE_RCBR  &kp SE_LBRC   &kp SE_RBRC      &kp SE_TILD    &kp MINUS   &kp SE_BSLS  &kp SE_LBRC     &kp SE_RBRC    &kp SE_QUOT &kp SE_ASTR
    &kp LCTRL &trans   &trans     &kp SE_LCBR   &kp SE_RCBR      &trans         &kp UNDER   &kp PLUS     &kp SE_LCBR     &kp SE_RCBR    &kp SE_PIPE &kp SE_CIRC
                     	     &kp LGUI &mo 3   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
